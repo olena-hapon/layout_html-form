@@ -1,1 +1,22 @@
 /* styles go here */
+html {
+  font-weight: bold;
+  color: black;
+}
+
+.form-field {
+  display: block;
+  margin: 10px;
+}
+
+.form-legend {
+  margin: 20px;
+  border: 2px solid grey;
+}
+
+button {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 0 20px;
+}
