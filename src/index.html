@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-    method="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="form-legend">
         <legend>Personal information</legend>
         <label class="form-field">
@@ -49,7 +47,7 @@
           <input 
             type="data"
             name="Data"
-            placeholder="mm/dd/yyyy"
+            placeholder="mm/dd/yyyy" 
             autocomplete="off"
             required
             class="field"
@@ -62,11 +60,9 @@
             name="I acept the term of the agreement"
             autocomplete="off"
             required
-            class="field"
           >
         </label>
       </fieldset>
-
       <fieldset class="form-legend">
         <legend>Registration</legend>
         <label class="form-field">
@@ -77,7 +73,6 @@
             required
             placeholder="email@example.com"
             autocomplete="off"
-            class="field"
           >
         </label>
         <label class="form-field">
@@ -157,14 +152,13 @@
             min="0" 
             max="10"
             autocomplete="off"
-            class="field"
           >
         </label> 
       </fieldset>
       <fieldset class="form-legend">
         <legend>Additional info:</legend>
         <label class="form-field">
-      Comments:
+          Comments:
           <textarea
             name="comments"
             rows="2"
@@ -184,5 +178,6 @@
       </fieldset>
       <button type="submit">Submit</button>
     </form>
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
